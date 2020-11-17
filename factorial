@@ -1,0 +1,13 @@
+i = 0
+ans = 1
+a = ""
+n = int(input('enter your num: '))
+while i < n:
+    i += 1
+    ans *= i
+    a += str(i)+' x '
+
+ans = str(ans)
+last = ans+' = '+ a
+b = len(last) - 2
+print(last[:b:1])
