@@ -1,0 +1,39 @@
+from tkinter import *
+from tkinter import messagebox as m
+from firebase import firebase
+import webview
+
+firebase = firebase.FirebaseApplication('https://movie-ed08e.firebaseio.com/', None)
+result = firebase.get('/MOVIEE', None)
+value=list(result.values())
+
+def sign_in():
+    if w.get() in result and e.get() in value :
+        root.destroy()
+        webview.create_window('Netflix','https://www1.123moviesgo.tv')
+        webview.start()
+
+    else:
+        m.showerror("Account Status","ERROR SIGN IN")
+
+root = Tk()
+root.title("Netflix Lifetime")
+email = Label(root,text='Email ',font='Times 25 bold',width=20,bg='cyan')
+email.grid(row=0,column=0)
+pword  = Label(root,text = ' Password',font='Times 25 bold',width = 20,bg='cyan')
+pword.grid(row=1,column=0)
+w=StringVar(root)
+input1 = Entry(root,bg='white',width=22,font='Times 25 bold',textvariable=w)
+input1.grid(row=0,column=1)
+e=IntVar(root)
+input2 = Entry(root,bg='white',width=22,font='Times 25 bold',textvariable=e)
+input2.grid(row=1,column=1)
+sign_in = Button(root,text='Sing In',bg='red',width=40,font='Times 25 bold',fg='white',
+                relief=RAISED,borderwidth=7,command=sign_in)
+sign_in.grid(row=2,columnspan=2)
+ygn = Label(root,text='Yangon Tech & Edu Farm',font='Times 50 bold')
+ygn.grid(row=3,columnspan=2)
+ygn = Label(root,text='!Sign In first!',font='Times 15 bold',bg='green',width=75,fg='yellow')
+ygn.grid(row=4,columnspan=2)
+
+root.mainloop()
