@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<table id="header" border="2" width="80%" cellpadding="0" cellspacing="0" align="center">
+		<tr bgcolor="cyan">
+			<td width="20%" align="center"><img src="matplot.jpg" width="100%" /></td>
+			<td align="center"><font face="Arial" size="20" color="red">Wai Yan Aung</font></td>
+			<td width="20%" align="center"><img src="matplot.jpg" width="100%" /></td>
+		</tr>
+	</table>
+	<br>
+	<table id="navigation" border = "2" width = "80%" cellpadding="0" cellspacing="0" align="center">
+		<tr bgcolor ="blue" align="center">
+			
+			<td><a href="#"><font color="white">Home</font></a></td>
+			<td><a href="#"><font color="white">Download</font></a></td>
+			<td><a href="#"><font color="white">Community</font></a></td>
+			<td><a href="#"><font color="white">About</font></a></td>
+			<td><a href="#"><font color="white">Contact Us</font></a></td>
+	</table>
+	<br>
+	<table id="navigation" border = "2" width = "80%" cellpadding="0" cellspacing="0" align="center">
+		<tr bgcolor ="white" height="500px" valign="top">
+			<td width="28%" >
+				<ol>
+					<li><a href="#">HTML Lessons 1</a></li><br>
+					<li><a href="#">HTML Lessons 2</a></li><br>
+					<li><a href="#">HTML Lessons 3</a></li><br>
+					<li><a href="#">HTML Lessons 4</a></li><br>
+					<li><a href="#">HTML Lessons 5</a></li><br>
+				<ol>
+			</td>
+			<td>
+				<h3 align="center"><strong><hr>One Way Love</hr></strong></h3>
+				<pre>
+
+					<p align="center">
+A one way love can never thrive;
+It needs reciprocation.
+And so in order to survive
+My love needs affirmation.
+So throw your caution to the sky,
+And let your heart command.
+You'll find that it will not deny
+A love which must expand.
+Come now, to me, with open arms
+And sweep me off my feet;
+And then display for me your charms,
+To make my love complete.
+My one way love will terminate
+Without your inspiration.
+So, therefore, please reciprocate
+With no more hesitation.
+					</p> 					
+				</pre>							
+			</td>
+			<td width="28%" align="center">
+				<table border="2" width="100%" cellspacing="10">
+					<tr align="center">
+						<td><a href="#">CSS Lessons 1</a></td>
+					</tr>
+					<tr align="center">
+						<td><a href="#">CSS Lessons 2</td>
+					</tr>
+					<tr align="center">
+						<td><a href="#">CSS Lessons 3</td>
+					</tr>
+					<tr align="center">
+						<td><a href="#">CSS Lessons 4</td>
+					</tr>
+					<tr align="center">
+						<td><a href="#">CSS Lessons 5</td>
+					</tr>
+
+				</table>
+			</td>
+			
+		</tr>
+	</table>
+	<table id="header" border="2" width="80%" cellpadding="0" cellspacing="0" align="center" height="30px">
+		<tr>
+			<td>
+				<marquee bgcolor ="orange" width="100%" height="30px" behavior="alternate" scrollamount="20">Copyright@All Conserved</marquee>
+
+			</td>
+			
+		</tr>
+	</table>	
+</body>
+</html>
